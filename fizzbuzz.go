@@ -29,8 +29,6 @@ func FizzBuzz(numbers []int) []string {
 	return result
 }
 
-/* 関数を定義せずに直接記述しても良い */
-
 func isFizz(n int) bool                    { return n%3 == 0 }
 func isBuzz(n int) bool                    { return n%5 == 0 }
 func isFizzBuzz(n int) bool                { return isFizz(n) && isBuzz(n) }
